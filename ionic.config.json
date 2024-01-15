@@ -1,0 +1,7 @@
+{
+  "name": "ConsultaTuFactura",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
