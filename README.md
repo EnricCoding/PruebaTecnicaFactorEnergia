@@ -10,13 +10,12 @@ Versiones utilizadas:
     "@angular/core": "^17.0.2"
     "@ionic/angular": "^7.0.0"
 
-## Requisitos Previos
-
-- [Node.js]: https://nodejs.org/
-- [Angular CLI]: https://angular.io/cli
-- [Ionic CLI]: https://ionicframework.com/
-- [Android Studio]: https://developer.android.com/studio?hl=es-419
-- [Visual Studio Code]: https://code.visualstudio.com/
+## Requisitos Previos: 
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
+- [Ionic CLI](https://ionicframework.com/)
+- [Android Studio](https://developer.android.com/studio?hl=es-419)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Configuración
 
