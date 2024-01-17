@@ -33,7 +33,7 @@ Versiones utilizadas:
 
     bash
 
-    cd ConsultaTuFactura
+    cd PruebaTecnicaFactorEnergia
     npm install
 
 Desarrollo
