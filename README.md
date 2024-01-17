@@ -1,15 +1,22 @@
 # PruebaTecnicaFactorEnergia
 Technical test for Factor Energia company. 
 
-# Nombre de tu Aplicación
+# Prueba tecnica Factor Energia
 
-Descripción corta de tu aplicación.
+Una aplicación donde podras consultar tu facturación desde tu ordenador o mobil.
+
+Versiones utilizadas: 
+    node -v: 20.11.0
+    "@angular/core": "^17.0.2"
+    "@ionic/angular": "^7.0.0"
 
 ## Requisitos Previos
 
-- [Node.js](https://nodejs.org/) instalado
-- [Angular CLI](https://angular.io/cli) instalado
-- [Ionic CLI](https://ionicframework.com/) instalado
+- [Node.js]: https://nodejs.org/
+- [Angular CLI]: https://angular.io/cli
+- [Ionic CLI]: https://ionicframework.com/
+- [Android Studio]: https://developer.android.com/studio?hl=es-419
+- [Visual Studio Code]: https://code.visualstudio.com/
 
 ## Configuración
 
