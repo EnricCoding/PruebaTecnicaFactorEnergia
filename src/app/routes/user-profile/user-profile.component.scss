@@ -1,0 +1,21 @@
+ion-avatar {
+    width: 330px;
+    height: 330px;
+    margin: auto; 
+}
+  
+ion-item {
+  margin-bottom: 15px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    ion-avatar {
+      width: 250px;
+      height: 250px;
+      margin: auto;
+    }
+}

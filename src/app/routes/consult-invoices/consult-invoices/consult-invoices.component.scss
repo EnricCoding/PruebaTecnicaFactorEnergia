@@ -1,0 +1,50 @@
+.invoices-list {
+    width: 100%;
+    overflow: auto;
+    border-collapse: collapse;
+
+    mat-header-cell {
+        background-color: #333;
+        color: white;
+        font-size: 1.3em;
+    }
+
+    mat-row {
+        white-space: nowrap; 
+    }
+  
+    mat-row:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+  
+    mat-row:hover {
+        background-color: #ddd;
+    }
+  
+    ion-button {
+        --background: #333;
+        --color: white;
+    }
+  
+    ion-button:hover {
+        --background: #555;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .invoices-list {
+        mat-header-cell {
+            font-size: 0.9em;
+        }
+
+        mat-cell {
+            font-size: 0.8em;
+        }
+
+        ion-button {
+            font-size: 10px;
+        }
+    }
+}

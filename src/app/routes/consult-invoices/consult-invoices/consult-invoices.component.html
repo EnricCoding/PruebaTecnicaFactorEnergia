@@ -1,0 +1,44 @@
+<app-header> </app-header>
+
+<ion-content>
+  <div class="invoices-list"> 
+    <mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+
+      <ng-container matColumnDef="invoiceName">
+        <mat-header-cell *matHeaderCellDef >{{ 'name' | translate }}</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{ row.invoiceName }}</mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="invoiceDate">
+        <mat-header-cell *matHeaderCellDef >{{ 'invoiceDate' | translate }}</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{ row.invoiceDate | dateFormat }}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="invoiceAmount">
+          <mat-header-cell *matHeaderCellDef>{{ 'invoiceAmount' | translate }}</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{ row.invoiceAmount }}€</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="invoiceAddress">
+        <mat-header-cell *matHeaderCellDef>{{ 'invoiceAddress' | translate }}</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{ row.invoiceAddress }}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="invoicePdfUrl">
+        <mat-header-cell *matHeaderCellDef>{{ 'invoicePdf' | translate }}</mat-header-cell>
+        <mat-cell *matCellDef="let row">
+            <ion-button (click)="downloadPdf()" *ngIf="!isMobile()"> 
+              <ion-icon name="cloud-download-outline"></ion-icon>
+            </ion-button>
+            <ion-button (click)="openPdf()" > 
+              <ion-icon name="eye-outline"></ion-icon>
+            </ion-button>
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+      
+    </mat-table>
+  </div>
+</ion-content>

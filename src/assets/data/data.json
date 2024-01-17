@@ -1,0 +1,6 @@
+[
+    { "invoiceName": "Factura 1", "invoiceDate": "2024-01-10T10:30:00.000Z", "invoiceAmount": 100.0, "invoiceAddress": "Dirección 1", "invoicePdfUrl": "./../pdf/FacturaLuz.pdf" },
+    { "invoiceName": "Factura 2", "invoiceDate": "2024-01-11T11:45:00.000Z", "invoiceAmount": 150.0, "invoiceAddress": "Dirección 2", "invoicePdfUrl": "./../pdf/FacturaLuz.pdf" },
+    { "invoiceName": "Factura 3", "invoiceDate": "2024-01-12T12:30:00.000Z", "invoiceAmount": 200.0, "invoiceAddress": "Dirección 3", "invoicePdfUrl": "./../pdf/FacturaLuz.pdf" },
+    { "invoiceName": "Factura 4", "invoiceDate": "2024-01-13T13:45:00.000Z", "invoiceAmount": 250.0, "invoiceAddress": "Dirección 4", "invoicePdfUrl": "./../pdf/FacturaLuz.pdf" }
+]

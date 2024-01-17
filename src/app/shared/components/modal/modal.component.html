@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="align-center"> {{ modalTitle | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="align-center">
+        {{ modalText | translate }}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="align-center">
+        <ion-button (click)="closeModal()">{{ 'close' | translate }}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="header-logo"> 
+      <a href="https://www.factorenergia.com/es/" target="_blank" >
+        <img src="./../../../../assets/img/logo2.png">
+      </a>
+    </div>
+    <ion-buttons slot="end" class="buttons-container">
+      <ion-select class="custom-ion-select" (ionChange)="changeLanguage($event.detail.value)" [(ngModel)]="selectedLanguage" interface="popover">
+        <ion-select-option value="es">ES</ion-select-option>
+        <ion-select-option value="en">EN</ion-select-option>
+        <ion-select-option value="ca">CA</ion-select-option>
+      </ion-select>
+      <ion-button (click)="goToProfile()" *ngIf="isConsultInvoices">
+        <ion-icon name="person" class="font-20"></ion-icon>
+      </ion-button>
+      <ion-button (click)="goToConsultInvoices()" *ngIf="isProfile">
+        <ion-icon name="home-outline" class="font-20"></ion-icon>
+      </ion-button>
+      <ion-button (click)="logOut()">
+        <ion-icon name="log-out-outline" class="font-20"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

@@ -1,0 +1,72 @@
+<app-header> </app-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      
+      <ion-col size="12" size-sm="6" >
+        <ion-avatar>
+          <img src="{{ user.photoUrl }}" alt="User Photo">
+        </ion-avatar>
+      </ion-col>
+
+      <ion-col size="12" size-sm="6">
+        <ion-item>
+          <ion-input
+            [(ngModel)]="user.userName"
+            labelPlacement="floating"
+            label="{{ 'invoiceName' | translate }}"
+            type="text"
+            [disabled]="!editMode"
+            name="userName"
+            (ionChange)="saveUserInformation()"
+          >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            [(ngModel)]="user.email"
+            labelPlacement="floating"
+            label="{{ 'email' | translate }}"
+            type="email"
+            [disabled]="!editMode"
+            name="email"
+            (ionChange)="saveUserInformation()" >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            [(ngModel)]="formatRegistrationDate"
+            labelPlacement="floating"
+            label="{{ 'registrationDate' | translate }}"
+            type="text"
+            disabled
+            name="registrationDate" 
+          >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input
+            [(ngModel)]="user.address"
+            labelPlacement="floating"
+            label="{{ 'address' | translate }}"
+            type="text"
+            [disabled]="!editMode"
+            name="address" 
+            (ionChange)="saveUserInformation()">
+          </ion-input>
+        </ion-item>
+
+        <ion-button expand="full" color="primary" (click)="toggleEditMode()">
+          {{ editMode ? ('save' | translate) : ('edit' | translate) }}
+          <ion-icon name="save-outline" *ngIf="editMode" slot="end"></ion-icon>
+          <ion-icon name="create-outline" *ngIf="!editMode" slot="end"></ion-icon>
+        </ion-button>
+        
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

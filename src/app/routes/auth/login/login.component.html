@@ -1,0 +1,17 @@
+<ion-content>
+    <ion-row class="login-container">
+      <ion-col size-md="8" size-lg="4" size-xl="4" >
+        <form (ngSubmit)="loginFormSubmit()" class="login-form">
+          <h1 class="title">{{ 'clientArea' | translate }}</h1>
+          <p class="sub-title">{{ 'checkConsumption' | translate }}</p>
+          <ion-item>
+              <ion-input label="{{ 'setUserName' | translate }}" labelPlacement="floating" name="username" [(ngModel)]="username"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="{{ 'setPassword' | translate }}" labelPlacement="floating" name="password" [(ngModel)]="password"></ion-input>
+          </ion-item>
+          <ion-button expand="full" type="submit">{{ 'loginButton' | translate }}</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+</ion-content>

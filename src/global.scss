@@ -24,3 +24,47 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+.pc-small-modal {
+
+    &::part(backdrop) {
+        backdrop-filter: blur(12px);
+    }
+    
+    &::part(content) {
+        width: 30%;
+        height: 16%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+}
+
+.phone-small-modal {
+
+    &::part(backdrop) {
+        backdrop-filter: blur(12px);
+    }
+    
+    &::part(content) {
+        width: 60%;
+        height: 25%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+}
+
+/* app.component.scss (o tu archivo de estilos correspondiente) */
+.custom-ion-select {
+    --placeholder-color: var(--ion-color-dark); /* Color del texto de marcador de posición */
+    --placeholder-font-size: 14px; /* Tamaño de fuente del marcador de posición */
+    --border-width: 2px; /* Ancho de borde */
+    --border-color: var(--ion-color-primary); /* Color de borde */
+   /*  --background: var(--ion-color-light); Color de fondo */
+    --min-height: 40px; /* Altura mínima del desplegable */
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
