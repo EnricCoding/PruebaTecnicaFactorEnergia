@@ -50,14 +50,11 @@ bash
 
     ionic serve
 
-
-Agrega plataformas Capacitor:
+Para ejecutar los test:
 
 bash
 
-npx cap add android
-
-
+    ng test
 
 Construye la aplicación para dispositivos móviles (Android):
 
@@ -72,8 +69,3 @@ Abre Android Studio para Android:
 bash
 
 npx cap open android
-
-
-bash
-
-ionic capacitor run ios
