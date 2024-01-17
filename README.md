@@ -22,7 +22,6 @@ Versiones utilizadas:
 1. Clona el repositorio:
 
    ```
-   bash
    git clone https://github.com/EnricCoding/PruebaTecnicaFactorEnergia.git
 
    Instala las dependencias:
