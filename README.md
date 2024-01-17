@@ -38,11 +38,11 @@ Versiones utilizadas:
 
 Desarrollo
 
-    Ejecuta la aplicación en el navegador:
+Ejecuta la aplicación en el navegador:
 
     bash
 
-ionic serve
+    ionic serve
 
 Para construir la aplicación Angular con Ionic:
 
