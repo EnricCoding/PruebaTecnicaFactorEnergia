@@ -1,5 +1,4 @@
 Technical Test for Factor Energia
-Technical Test Factor Energia
 An application where you can check your billing from your computer or mobile device.
 
 Versions used:
@@ -17,8 +16,8 @@ Configuration
 Clone the repository:
 
 bash
-Copiar código
-git clone https://github.com/EnricCoding/PruebaTecnicaFactorEnergia.git
+  Copiar código
+  git clone https://github.com/EnricCoding/PruebaTecnicaFactorEnergia.git
 
 Install dependencies:
 Install Node: https://nodejs.org/en
