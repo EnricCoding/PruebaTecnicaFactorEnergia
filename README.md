@@ -29,7 +29,31 @@ Clone the repository:
   Install Android Studio: https://developer.android.com/studio?hl=es-419
   Install Visual Studio Code: https://code.visualstudio.com/
 
+Do the installation:
 ````
 cd PruebaTecnicaFactorEnergia
 npm install
 ````
+
+Run in the browser:
+````
+cd PruebaTecnicaFactorEnergia
+ionic serve
+````
+
+To run tests:
+````
+cd PruebaTecnicaFactorEnergia
+ng test
+````
+
+Build the application for mobile devices (Android):
+````
+npx cap add android
+ionic capacitor sync android
+````
+Open Android Studio for Android:
+````
+npx cap open android
+````
+
