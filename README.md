@@ -30,5 +30,5 @@ Clone the repository:
   Install Visual Studio Code: https://code.visualstudio.com/
 
   bash
-  cd PruebaTecnicaFactorEnergia
-  npm install
+    cd PruebaTecnicaFactorEnergia
+    npm install
