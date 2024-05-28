@@ -1,70 +1,66 @@
-# PruebaTecnicaFactorEnergia
-Technical test for Factor Energia company. 
+Technical Test for Factor Energia
+Technical Test Factor Energia
+An application where you can check your billing from your computer or mobile device.
 
-# Prueba tecnica Factor Energia
+Versions used:
 
-Una aplicación donde podras consultar tu facturación desde tu ordenador o mobil.
+node -v: 20.11.0
+"@angular/core": "^17.0.2"
+"@ionic/angular": "^7.0.0"
+Prerequisites:
+Node.js
+Angular CLI
+Ionic CLI
+Android Studio
+Visual Studio Code
+Configuration
+Clone the repository:
 
-Versiones utilizadas: 
-    node -v: 20.11.0
-    "@angular/core": "^17.0.2"
-    "@ionic/angular": "^7.0.0"
+bash
+Copiar código
+git clone https://github.com/EnricCoding/PruebaTecnicaFactorEnergia.git
 
-## Requisitos Previos: 
-- [Node.js](https://nodejs.org/)
-- [Angular CLI](https://angular.io/cli)
-- [Ionic CLI](https://ionicframework.com/)
-- [Android Studio](https://developer.android.com/studio?hl=es-419)
-- [Visual Studio Code](https://code.visualstudio.com/)
+Install dependencies:
+Install Node: https://nodejs.org/en
+Install Angular: npm install -g @angular/cli
+Install Ionic: npm install -g @ionic/cli
+Install Android Studio: https://developer.android.com/studio?hl=es-419
+Install Visual Studio Code: https://code.visualstudio.com/
 
-## Configuración
+ bash
 
-1. Clona el repositorio:
+ cd PruebaTecnicaFactorEnergia
+ npm install
+Development
 
-   ```
-   git clone https://github.com/EnricCoding/PruebaTecnicaFactorEnergia.git
+Run the application in the browser:
 
-   Instala las dependencias:
-   Instalar Node: https://nodejs.org/en
-   Instalar Angular: npm install -g @angular/cli
-   Instalar Ionic: npm install -g @ionic/cli
-   Instalar Android Studio: https://developer.android.com/studio?hl=es-419
-   Instalar Visual Studio Code: https://code.visualstudio.com/
+Copiar código
+bash
 
-    bash
-
-    cd PruebaTecnicaFactorEnergia
-    npm install
-
-Desarrollo
-
-Ejecuta la aplicación en el navegador:
-
-    bash
-
-    ionic serve
-
-Para construir la aplicación Angular con Ionic:
+ionic serve
+To build the Angular application with Ionic:
 
 bash
 
-    ionic serve
-
-Para ejecutar los test:
-
-bash
-
-    ng test
-
-Construye la aplicación para dispositivos móviles (Android):
+Copiar código
+ionic serve
+To run tests:
 
 bash
 
-    npx cap add android
-    ionic capacitor sync android
-   
+bash
+Copiar código
+ng test
+Build the application for mobile devices (Android):
 
-Abre Android Studio para Android:
+bash
+
+bash
+Copiar código
+npx cap add android
+ionic capacitor sync android
+Open Android Studio for Android:
 
 bash
 
