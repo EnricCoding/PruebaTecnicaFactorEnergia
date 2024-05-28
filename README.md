@@ -29,6 +29,7 @@ Clone the repository:
   Install Android Studio: https://developer.android.com/studio?hl=es-419
   Install Visual Studio Code: https://code.visualstudio.com/
 
-  bash
-    cd PruebaTecnicaFactorEnergia
-    npm install
+````
+cd PruebaTecnicaFactorEnergia
+npm install
+````
