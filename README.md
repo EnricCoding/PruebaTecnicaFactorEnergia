@@ -1,6 +1,6 @@
-# Technical Test for Factor Energia
+# Customer Area for a Electric company
 
-## Technical Test Factor Energia
+## Customer Area for a Electric company
 
 An application where you can check your billing from your computer or mobile device.
 
